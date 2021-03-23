@@ -52,3 +52,13 @@ h1 {
 .download-button {
     margin: 5% 3% 5% 0;
 }
+
+ /* Features */
+
+ .mid-container {
+     padding: 200px 0;
+ }
+
+ h3 {
+     font-weight: 1.5rem;
+ }
