@@ -19,14 +19,12 @@ h1 {
 h2 {
     font-family: 'Montserrat';
     font-weight: bold;
-    font-size: 3rem;
     line-height: 1.5;
 }
 
 h3 {
     font-family: 'Montserrat';
     font-weight: 600;
-    font-size: 3rem;
 }
 
 p {
@@ -162,19 +160,17 @@ p {
 #cta {
     background-color: #ff4c68;
     color: white;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.cta-heading {
     font-family: 'Montserrat';
     font-weight: bold;
-    text-align: center;
-    padding: 9% 17% 6%;
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
-#cta h3 {
-    padding-bottom: 5%;
-}
-
-#cta button {
-    margin: 2% 2%;
-}
 
 /* Footer section */
 
@@ -193,7 +189,7 @@ ul {
 }
 
 ul li {
-    margin: 0px 10px;
+    margin: 20px 10px;
 }
 
 a {
