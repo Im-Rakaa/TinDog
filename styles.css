@@ -12,6 +12,8 @@ p {
     color: #8f8f8f;
 }
 
+/* Containers */
+
 .container-fluid {
     padding: 7% 15%;
 }
@@ -20,11 +22,21 @@ p {
     padding: 3% 15% 7%;
 }
 
+/* Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
 /* Title */
 
 #title {
-    background-color: #ff4c68;
-    color: #fff;
+   
     text-align: left;
 }
 
@@ -38,7 +50,6 @@ p {
 .heading-title {
     font-weight: 900;
     font-size: 3.5rem;
-    color: white;
 }
 
 /* Navbar */
@@ -76,7 +87,6 @@ p {
  /* Features */
 
  #features {
-     background-color: #fff;
      position: relative;
  }
 
@@ -102,7 +112,6 @@ p {
 
 #testimonials {
     background-color:#ef8172 ;
-    color: #fff;
 }
 
 .testimonial-img {
@@ -160,11 +169,6 @@ p {
 
 /* cta section */
 
-#cta {
-    background-color: #ff4c68;
-    color: white;
-}
-
 .cta-heading {
     font-weight: bold;
     font-size: 3rem;
@@ -176,7 +180,6 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #fff;
     padding: 7% 3%;
 }
 
